@@ -1,0 +1,6 @@
+{
+  "name": "Flappy Bird Arcade",
+  "description": "A classic, vibrant Flappy Bird 2D arcade game featuring responsive controls, parallax scrolling, custom bird skins, retro audio, and leaderboard tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

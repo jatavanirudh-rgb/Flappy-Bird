@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Fredoka', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+}
+
+.font-arcade {
+  font-family: 'Press Start 2P', monospace, sans-serif;
+}
+
+.font-game {
+  font-family: 'Fredoka', cursive, sans-serif;
+}
+
+.pixel-art {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* Subtle retro text stroke effect */
+.text-stroke-1 {
+  -webkit-text-stroke: 1.5px #000;
+}
+.text-stroke-2 {
+  -webkit-text-stroke: 2.5px #000;
+}
+.text-stroke-white {
+  -webkit-text-stroke: 1.5px #fff;
+}
